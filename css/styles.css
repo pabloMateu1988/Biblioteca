@@ -1,0 +1,189 @@
+#header{
+  background-color: #6E98F9;
+  height: 200px;
+  border-bottom: 1px solid;
+}
+#buscador{
+  font-family: verdana;
+  float: right;
+}
+
+#logo{
+  width: 300px;
+  height: 150px;
+  float:left;
+}
+#volver{
+  width: 60px;
+  height:60px;
+}
+#refinarbusqueda{
+  border-bottom: 1px solid black;
+  margin-left: 20 px;
+}
+
+.titulos{
+  text-decoration: underline;
+  font-family: verdana;
+}
+.msjError{
+  font-size: 10px;
+  color:red;
+}
+.msjErrorCampos{
+  font-size: 10px;
+  color:red;
+  border: 1px solid red;
+}
+#msjErrorReservas{
+  font-size: 20px;
+  color:red;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 272px;
+  border-left-width: 30px;
+  border-right-width: 30px;
+}
+
+body{
+  margin: 1px;
+  margin-bottom: 100px;
+}
+
+table{
+  font-family: verdana;
+  text-align: center;
+  width: 100%;
+}
+
+img{
+  display: block;
+}
+
+.portada{
+  width: 150px;
+  height: 150px
+}
+
+.registro input{
+  text-align: center;
+
+}
+
+#sesion{
+  margin-left: 590px;
+}
+
+#tituloCatalogo{
+  font-family: verdana;
+  margin-top: 20px;
+  margin-bottom: -34px;
+}
+a{
+  text-decoration:none;
+  color:#100B43;
+  font-family: arial;
+}
+
+/*Estilos de pagina autor*/
+#sesionAutor{margin-left: 1240px;}
+/*Fin*/
+/*Estilos de pagina perfil*/
+#tablaPerfil{
+  text-align: left;
+  border-spacing: 50px;
+}
+.perfil{
+  width: 200px;
+  height: 200px;
+}
+/*Fin*/
+/*Estilos de pagina Bibliotecario*/
+#logoBibliotecario{
+  width: 300px;
+  height: 150px;
+  float:left;
+}
+#autorizacion{
+  color:red;
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+  border: 1px solid red;
+}
+#buscadorBibliotecario{
+  font-family: verdana;
+  float: right;
+  margin-top: 20px;
+  margin-right: 280px;
+}
+#tituloBibliotecario{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#tableBibliotecario{
+  font-family: verdana;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input{
+  width: 175px;
+}
+/* FIn*/
+.inicio{
+  text-align: center;
+}
+.inicio input{
+  text-align: center;
+}
+/*Estilos de pagina registro*/
+.registro{
+  font-family: verdana;
+  font-size: 18px;
+}
+#img_titutlo{
+  border: 5px solid #070000;
+  width: 400px;
+  height: 500px;
+  float:right;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+#bloque_detalles_titulo{
+  margin-top: 25px;
+  margin-left: 150;
+  border: 1px solid #070000;
+  width: 1230px;
+  height: 600px;
+  }
+#texto_detalles{
+  margin-top: 12px;
+  margin-left: 10;
+  border: 1px solid #070000;
+  width: 630px;
+  height: 580px;
+  float:left;
+  }
+#bloque_descripcion_titulo{
+  overflow: auto;
+  width:600px;
+  height:370px;
+}
+.left{
+    float: left;
+}
+.right{
+    margin-left: 30px;
+    float: right;
+}
+#noEjemplares{
+  color:#FF0000;
+}
+.container{
+  text-align: center;
+}
+#indice{
+  font-family: "arial";
+  color:#FE2E2E;
+}

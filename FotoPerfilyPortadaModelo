@@ -1,0 +1,22 @@
+<?php
+include('conectar.php');
+$conexion=conectar();
+if(!empty($_GET['id'])){
+  $id = $_GET['id'];
+  $consulta="SELECT foto FROM usuarios u WHERE id=$id ";
+}
+if (!empty($_GET['id_libro']){
+  $id = $_GET['id'];
+  $consulta="SELECT portada FROM libros l WHERE id=$id ";
+}
+$result=mysqli_query($conexion,$consulta);
+$row=mysqli_fetch_array($result);
+header("Content-type: image/jpg");
+if(!empty($_GET['id'])){
+  echo $row['foto'];
+}
+if(!empty($_GET['id_libro'])){
+  echo $row['portada'];
+}
+
+ ?>
